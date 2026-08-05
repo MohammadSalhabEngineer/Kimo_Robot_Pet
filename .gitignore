@@ -1,0 +1,52 @@
+# Local configuration holding the Groq API key — never commit
+config.py
+
+# Secrets / credentials
+.env
+.env.*
+*credentials*.json
+*credentials*.txt
+*.pem
+
+# Third-party binaries (DroidCam CLI, not part of this project)
+droidcam-cli
+droidcam-cli.orig
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Downloaded / cached speech models
+models/
+*.bin
+*.pt
+*.onnx
+
+# Arduino build output
+arduino/**/build/
+*.hex
+*.elf
+
+# Recordings and logs
+*.wav
+*.log
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
